@@ -1,70 +1,97 @@
-# Getting Started with Create React App
+# Slon Blog. Сайт блога
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Обзор
 
-## Available Scripts
+Проект представляет собой веб-сайт для блога. Сайт создан с использованием **HTML**, **CSS**, **JavaScript**, **React** и **Bootstrap**.
+## Возможности блога
 
-In the project directory, you can run:
+- **Регистрация и вход:** Пользователи могут зарегистрироваться, войти в систему, выйти из нее.
+- **Чтение постов:** Просмотр последних постов в ленте для получения актуальной информации.
+- **Фильтры для постов:** Возможность использовать различные фильтры для поиска постов по тегам, названию, автору, дате и другим параметрам.
+- **Создание поста:** Зарегистрированные пользователи могут создавать свои собственные посты и делиться информацией.
+- **Комментарии:** Добавление комментариев к постам.
+- **Лайки:** Возможность поставить лайк понравившемуся посту.
+- **Подписка на сообщество:** Пользователи могут подписываться на интересующие их сообщества для получения обновлений.
 
-### `npm start`
+## Начало работы
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Для локального запуска проекта выполните следующие шаги:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Клонируйте репозиторий:
 
-### `npm test`
+```bash
+git clone https://github.com/L11D/SlonBlogWeb.git
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. Перейдите в директорию проекта:
 
-### `npm run build`
+```bash
+cd SlonBlogWeb
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Установите зависимости:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npm install
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Запустите приложение:
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Теперь блог должен быть запущен локально. 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Сайт использует API, предоставленное преподавателями на время разработки. В настоящее время API может быть недоступно.**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Slon Blog. Blog Website
 
-## Learn More
+## Overview
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project is a web-based blog site created using **HTML**, **CSS**, **JavaScript**, **React**, and **Bootstrap**.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Blog Features
 
-### Code Splitting
+- **Registration and Login:** Users can register, log in, and log out.
+- **Reading Posts:** View the latest posts in the feed to get up-to-date information.
+- **Post Filters:** The ability to use various filters to search for posts by tags, title, author, date, and other parameters.
+- **Creating a Post:** Registered users can create their own posts and share information.
+- **Comments:** Add comments to posts for discussion.
+- **Likes:** The ability to like a post that you find interesting.
+- **Community Subscriptions:** Users can subscribe to communities of interest to receive updates.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Getting Started
 
-### Analyzing the Bundle Size
+To run the project locally, follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repository:
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/L11D/SlonBlogWeb.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Navigate to the project directory:
 
-### Advanced Configuration
+```bash
+cd SlonBlogWeb
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. Install dependencies:
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+4. Start the application:
 
-### `npm run build` fails to minify
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Now the blog should be running locally.
+
+**Note: The site uses an API provided by instructors during development. Currently, the API may be unavailable.**
+
